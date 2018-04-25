@@ -42,6 +42,8 @@ obj对象（初始值：{start:0}），maxStr，nowStr
 **2.obj.start指针在重复字符的前一个字符的位置的后面（如：abccba，遍历到第二个b时，obj.start指针为3，在第一个b的后面），说明当前字符与当前子串nowStr无重复：**<br>
 （1）仅更新重复字符的位置为当前位置；<br>
 （2）将当前字符加在nowStr末尾<br>
+
 **2. for循环便利出来后:**<br>
-（1）再比较nowStr与maxStr的长度，若大于则替换，若等于则加在maxStr末尾，若小于则不管；<br>
+（1）再比较nowStr与maxStr的长度，若大于则替换，若等于则加在maxStr末尾，若小于则不管；
+
 **3. 输出maxStr**
